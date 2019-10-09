@@ -9,7 +9,7 @@ import {Constant} from '../constants';
 @Injectable()
 export class SideMenuService{
 	
-	private liveDataUrl = 'https://intouch.mapmyindia.com/IntouchAPI/mobileAPI/getlivedata?state=0&token='+Constant.TOKEN+'';
+	private liveDataUrl = 'https://sampleurl';
 
 
 	constructor(private http:Http){}
